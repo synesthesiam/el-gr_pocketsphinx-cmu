@@ -1,0 +1,7 @@
+language:
+  name: "greek"
+  code: "el-gr"
+
+text-to-speech:
+  espeak:
+    voice: "el"
