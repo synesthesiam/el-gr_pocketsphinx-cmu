@@ -1,0 +1,1 @@
+{"text": "τι θερμοκρασία έχει", "intent": {"name": "GetTemperature", "confidence": 1.0}, "entities": [], "raw_text": "τι θερμοκρασία έχει", "tokens": ["τι", "θερμοκρασία", "έχει"], "raw_tokens": ["τι", "θερμοκρασία", "έχει"], "slots": {}, "intents": [], "recognize_seconds": 0.0002434253692626953}

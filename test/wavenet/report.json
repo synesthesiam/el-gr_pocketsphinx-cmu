@@ -1,0 +1,487 @@
+{
+  "statistics": {
+    "num_wavs": 7,
+    "num_words": 31,
+    "num_entities": 4,
+    "correct_transcriptions": 4,
+    "correct_intent_names": 6,
+    "correct_words": 26,
+    "correct_entities": 2,
+    "transcription_accuracy": 0.8387096774193549,
+    "intent_accuracy": 0.8571428571428571,
+    "entity_accuracy": 0.5
+  },
+  "actual": {
+    "πόσο_ζεστό_είναι.wav": {
+      "text": "πόσο ζεστό είναι",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "πόσο ζεστό είναι",
+      "tokens": [
+        "πόσο",
+        "ζεστό",
+        "είναι"
+      ],
+      "raw_tokens": [
+        "πόσο",
+        "ζεστό",
+        "είναι"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00028133392333984375,
+      "transcribe_seconds": 0.09315180778503418,
+      "wav_seconds": 1.3604375,
+      "likelihood": 0.7725721249587162,
+      "word_error": {
+        "expected": "πόσο ζεστό είναι",
+        "actual": "πόσο ζεστό είναι",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "είναι_ανοιχτή_η_πόρτα_του_γκαράζ.wav": {
+      "text": "είναι ανοιχτή η πόρτα του γκαράζ",
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "είναι ανοιχτή η πόρτα του γκαράζ",
+      "tokens": [
+        "είναι",
+        "ανοιχτή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "raw_tokens": [
+        "είναι",
+        "ανοιχτή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0003521442413330078,
+      "transcribe_seconds": 0.14920639991760254,
+      "wav_seconds": 2.1230625,
+      "likelihood": 0.685748917784928,
+      "word_error": {
+        "expected": "είναι ανοιχτή η  πόρτα του γκαράζ",
+        "actual": "είναι ανοιχτή η  πόρτα του γκαράζ",
+        "words": 6,
+        "correct": 6,
+        "errors": 0
+      }
+    },
+    "είναι_κλειστή_η_πόρτα_του_γκαράζ.wav": {
+      "text": "είναι κλειστή η πόρτα του γκαράζ",
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 0.7142857142857143
+      },
+      "entities": [],
+      "raw_text": "είναι κλειστή η πόρτα του γκαράζ",
+      "tokens": [
+        "είναι",
+        "κλειστή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "raw_tokens": [
+        "είναι",
+        "κλειστή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0003540515899658203,
+      "transcribe_seconds": 0.15093708038330078,
+      "wav_seconds": 2.0679375,
+      "likelihood": 0.011412814461056704,
+      "word_error": {
+        "expected": "είναι κλειστή η  πόρτα του γκαράζ",
+        "actual": "είναι κλειστή η  πόρτα του γκαράζ",
+        "words": 6,
+        "correct": 6,
+        "errors": 0
+      }
+    },
+    "τι_θερμοκρασία_έχει.wav": {
+      "text": "τι θερμοκρασία έχει",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "τι θερμοκρασία έχει",
+      "tokens": [
+        "τι",
+        "θερμοκρασία",
+        "έχει"
+      ],
+      "raw_tokens": [
+        "τι",
+        "θερμοκρασία",
+        "έχει"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0003170967102050781,
+      "transcribe_seconds": 0.09167933464050293,
+      "wav_seconds": 1.5856875,
+      "likelihood": 0.6403427697596016,
+      "word_error": {
+        "expected": "τι θερμοκρασία έχει",
+        "actual": "τι θερμοκρασία έχει",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "πόσο_κρύο_είναι.wav": {
+      "text": "πόσο κρύο είναι",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "πόσο κρύο είναι",
+      "tokens": [
+        "πόσο",
+        "κρύο",
+        "είναι"
+      ],
+      "raw_tokens": [
+        "πόσο",
+        "κρύο",
+        "είναι"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.00034999847412109375,
+      "transcribe_seconds": 0.10782122611999512,
+      "wav_seconds": 1.3183125,
+      "likelihood": 0.6165252119932888,
+      "word_error": {
+        "expected": "πόσο κρύο είναι",
+        "actual": "πόσο κρύο είναι",
+        "words": 3,
+        "correct": 3,
+        "errors": 0
+      }
+    },
+    "άναψε_το_φως_του_γκαράζ.wav": {
+      "text": "άναψε το φως του γκαράζ",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 0.8333333333333334
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "άναψε",
+          "raw_value": "άναψε",
+          "start": 0,
+          "raw_start": 0,
+          "end": 5,
+          "raw_end": 5
+        },
+        {
+          "entity": "name",
+          "value": "γκαράζ",
+          "raw_value": "γκαράζ",
+          "start": 17,
+          "raw_start": 17,
+          "end": 23,
+          "raw_end": 23
+        }
+      ],
+      "raw_text": "άναψε το φως του γκαράζ",
+      "tokens": [
+        "άναψε",
+        "το",
+        "φως",
+        "του",
+        "γκαράζ"
+      ],
+      "raw_tokens": [
+        "άναψε",
+        "το",
+        "φως",
+        "του",
+        "γκαράζ"
+      ],
+      "slots": {
+        "state": "άναψε",
+        "name": "γκαράζ"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0003809928894042969,
+      "transcribe_seconds": 0.11580204963684082,
+      "wav_seconds": 1.816625,
+      "likelihood": 0.5101869730366496,
+      "word_error": {
+        "expected": "άναψε το φως του γκαράζ",
+        "actual": "άναψε το φως του γκαράζ",
+        "words": 5,
+        "correct": 5,
+        "errors": 0
+      }
+    },
+    "σβήσε_το_φως_του_γκαράζ.wav": {
+      "text": "",
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 4.887580871582031e-05,
+      "transcribe_seconds": 0.13394474983215332,
+      "wav_seconds": 1.8486875,
+      "likelihood": 0,
+      "word_error": {
+        "expected": "σβήσε το φως του γκαράζ",
+        "actual": "***        ***  ***    ***    ***",
+        "words": 5,
+        "correct": 0,
+        "errors": 5
+      }
+    }
+  },
+  "expected": {
+    "πόσο_ζεστό_είναι.wav": {
+      "text": "πόσο ζεστό είναι",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "πόσο ζεστό είναι",
+      "tokens": [
+        "πόσο",
+        "ζεστό",
+        "είναι"
+      ],
+      "raw_tokens": [
+        "πόσο",
+        "ζεστό",
+        "είναι"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002892017364501953
+    },
+    "είναι_ανοιχτή_η_πόρτα_του_γκαράζ.wav": {
+      "text": "είναι ανοιχτή η πόρτα του γκαράζ",
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "είναι ανοιχτή η πόρτα του γκαράζ",
+      "tokens": [
+        "είναι",
+        "ανοιχτή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "raw_tokens": [
+        "είναι",
+        "ανοιχτή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002796649932861328
+    },
+    "είναι_κλειστή_η_πόρτα_του_γκαράζ.wav": {
+      "text": "είναι κλειστή η πόρτα του γκαράζ",
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "είναι κλειστή η πόρτα του γκαράζ",
+      "tokens": [
+        "είναι",
+        "κλειστή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "raw_tokens": [
+        "είναι",
+        "κλειστή",
+        "η",
+        "πόρτα",
+        "του",
+        "γκαράζ"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002892017364501953
+    },
+    "τι_θερμοκρασία_έχει.wav": {
+      "text": "τι θερμοκρασία έχει",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "τι θερμοκρασία έχει",
+      "tokens": [
+        "τι",
+        "θερμοκρασία",
+        "έχει"
+      ],
+      "raw_tokens": [
+        "τι",
+        "θερμοκρασία",
+        "έχει"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0002434253692626953
+    },
+    "πόσο_κρύο_είναι.wav": {
+      "text": "πόσο κρύο είναι",
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "raw_text": "πόσο κρύο είναι",
+      "tokens": [
+        "πόσο",
+        "κρύο",
+        "είναι"
+      ],
+      "raw_tokens": [
+        "πόσο",
+        "κρύο",
+        "είναι"
+      ],
+      "slots": {},
+      "intents": [],
+      "recognize_seconds": 0.0003380775451660156
+    },
+    "άναψε_το_φως_του_γκαράζ.wav": {
+      "text": "άναψε το φως του γκαράζ",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "άναψε",
+          "raw_value": "άναψε",
+          "start": 0,
+          "raw_start": 0,
+          "end": 5,
+          "raw_end": 5
+        },
+        {
+          "entity": "name",
+          "value": "γκαράζ",
+          "raw_value": "γκαράζ",
+          "start": 17,
+          "raw_start": 17,
+          "end": 23,
+          "raw_end": 23
+        }
+      ],
+      "raw_text": "άναψε το φως του γκαράζ",
+      "tokens": [
+        "άναψε",
+        "το",
+        "φως",
+        "του",
+        "γκαράζ"
+      ],
+      "raw_tokens": [
+        "άναψε",
+        "το",
+        "φως",
+        "του",
+        "γκαράζ"
+      ],
+      "slots": {
+        "state": "άναψε",
+        "name": "γκαράζ"
+      },
+      "intents": [],
+      "recognize_seconds": 0.000270843505859375
+    },
+    "σβήσε_το_φως_του_γκαράζ.wav": {
+      "text": "σβήσε το φως του γκαράζ",
+      "intent": {
+        "name": "ChangeLightState",
+        "confidence": 1
+      },
+      "entities": [
+        {
+          "entity": "state",
+          "value": "σβήσε",
+          "raw_value": "σβήσε",
+          "start": 0,
+          "raw_start": 0,
+          "end": 5,
+          "raw_end": 5
+        },
+        {
+          "entity": "name",
+          "value": "γκαράζ",
+          "raw_value": "γκαράζ",
+          "start": 17,
+          "raw_start": 17,
+          "end": 23,
+          "raw_end": 23
+        }
+      ],
+      "raw_text": "σβήσε το φως του γκαράζ",
+      "tokens": [
+        "σβήσε",
+        "το",
+        "φως",
+        "του",
+        "γκαράζ"
+      ],
+      "raw_tokens": [
+        "σβήσε",
+        "το",
+        "φως",
+        "του",
+        "γκαράζ"
+      ],
+      "slots": {
+        "state": "σβήσε",
+        "name": "γκαράζ"
+      },
+      "intents": [],
+      "recognize_seconds": 0.0002994537353515625
+    }
+  }
+}
