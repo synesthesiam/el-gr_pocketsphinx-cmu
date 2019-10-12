@@ -3,20 +3,23 @@
     "num_wavs": 7,
     "num_words": 31,
     "num_entities": 4,
-    "correct_transcriptions": 4,
+    "correct_transcriptions": 6,
     "correct_intent_names": 6,
     "correct_words": 26,
     "correct_entities": 2,
     "transcription_accuracy": 0.8387096774193549,
     "intent_accuracy": 0.8571428571428571,
-    "entity_accuracy": 0.5
+    "entity_accuracy": 0.5,
+    "intent_entity_accuracy": 0.8571428571428571,
+    "average_transcription_speedup": 17.22055818941862
   },
   "actual": {
     "πόσο_ζεστό_είναι.wav": {
       "text": "πόσο ζεστό είναι",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "πόσο ζεστό είναι",
@@ -32,10 +35,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00028133392333984375,
-      "transcribe_seconds": 0.09315180778503418,
+      "recognize_seconds": 0.00041747093200683594,
+      "transcribe_seconds": 0.07935380935668945,
       "wav_seconds": 1.3604375,
-      "likelihood": 0.7725721249587162,
+      "likelihood": 0.7721086670143988,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "πόσο ζεστό είναι",
         "actual": "πόσο ζεστό είναι",
@@ -48,7 +53,8 @@
       "text": "είναι ανοιχτή η πόρτα του γκαράζ",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "είναι ανοιχτή η πόρτα του γκαράζ",
@@ -70,10 +76,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003521442413330078,
-      "transcribe_seconds": 0.14920639991760254,
+      "recognize_seconds": 0.0002853870391845703,
+      "transcribe_seconds": 0.11638593673706055,
       "wav_seconds": 2.1230625,
-      "likelihood": 0.685748917784928,
+      "likelihood": 0.6847209464246705,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "είναι ανοιχτή η  πόρτα του γκαράζ",
         "actual": "είναι ανοιχτή η  πόρτα του γκαράζ",
@@ -86,7 +94,8 @@
       "text": "είναι κλειστή η πόρτα του γκαράζ",
       "intent": {
         "name": "GetGarageState",
-        "confidence": 0.7142857142857143
+        "confidence": 0.7142857142857143,
+        "expected_name": "GetGarageState"
       },
       "entities": [],
       "raw_text": "είναι κλειστή η πόρτα του γκαράζ",
@@ -108,10 +117,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003540515899658203,
-      "transcribe_seconds": 0.15093708038330078,
+      "recognize_seconds": 0.0002846717834472656,
+      "transcribe_seconds": 0.13898921012878418,
       "wav_seconds": 2.0679375,
-      "likelihood": 0.011412814461056704,
+      "likelihood": 0.012274761442225425,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "είναι κλειστή η  πόρτα του γκαράζ",
         "actual": "είναι κλειστή η  πόρτα του γκαράζ",
@@ -124,7 +135,8 @@
       "text": "τι θερμοκρασία έχει",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "τι θερμοκρασία έχει",
@@ -140,10 +152,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.0003170967102050781,
-      "transcribe_seconds": 0.09167933464050293,
+      "recognize_seconds": 0.0002582073211669922,
+      "transcribe_seconds": 0.09827136993408203,
       "wav_seconds": 1.5856875,
-      "likelihood": 0.6403427697596016,
+      "likelihood": 0.6404068146623827,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "τι θερμοκρασία έχει",
         "actual": "τι θερμοκρασία έχει",
@@ -156,7 +170,8 @@
       "text": "πόσο κρύο είναι",
       "intent": {
         "name": "GetTemperature",
-        "confidence": 1
+        "confidence": 1,
+        "expected_name": "GetTemperature"
       },
       "entities": [],
       "raw_text": "πόσο κρύο είναι",
@@ -172,10 +187,12 @@
       ],
       "slots": {},
       "intents": [],
-      "recognize_seconds": 0.00034999847412109375,
-      "transcribe_seconds": 0.10782122611999512,
+      "recognize_seconds": 0.00028204917907714844,
+      "transcribe_seconds": 0.08475828170776367,
       "wav_seconds": 1.3183125,
-      "likelihood": 0.6165252119932888,
+      "likelihood": 0.6117956518224792,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "πόσο κρύο είναι",
         "actual": "πόσο κρύο είναι",
@@ -188,7 +205,8 @@
       "text": "άναψε το φως του γκαράζ",
       "intent": {
         "name": "ChangeLightState",
-        "confidence": 0.8333333333333334
+        "confidence": 0.8333333333333334,
+        "expected_name": "ChangeLightState"
       },
       "entities": [
         {
@@ -230,10 +248,12 @@
         "name": "γκαράζ"
       },
       "intents": [],
-      "recognize_seconds": 0.0003809928894042969,
-      "transcribe_seconds": 0.11580204963684082,
+      "recognize_seconds": 0.0002994537353515625,
+      "transcribe_seconds": 0.09007883071899414,
       "wav_seconds": 1.816625,
-      "likelihood": 0.5101869730366496,
+      "likelihood": 0.5125907749499174,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "άναψε το φως του γκαράζ",
         "actual": "άναψε το φως του γκαράζ",
@@ -246,15 +266,18 @@
       "text": "",
       "intent": {
         "name": "",
-        "confidence": 0
+        "confidence": 0,
+        "expected_name": "ChangeLightState"
       },
       "entities": [],
       "intents": [],
       "slots": {},
-      "recognize_seconds": 4.887580871582031e-05,
-      "transcribe_seconds": 0.13394474983215332,
+      "recognize_seconds": 4.100799560546875e-05,
+      "transcribe_seconds": 0.10034489631652832,
       "wav_seconds": 1.8486875,
       "likelihood": 0,
+      "wrong_entities": [],
+      "missing_entities": [],
       "word_error": {
         "expected": "σβήσε το φως του γκαράζ",
         "actual": "***        ***  ***    ***    ***",

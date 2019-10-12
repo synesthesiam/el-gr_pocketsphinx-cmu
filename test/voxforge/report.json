@@ -9,12 +9,22 @@
     "correct_entities": 0,
     "transcription_accuracy": 0.6153846153846154,
     "intent_accuracy": 1,
-    "entity_accuracy": 1
+    "entity_accuracy": 1,
+    "intent_entity_accuracy": 1,
+    "average_transcription_speedup": 1.7524385988097397
   },
   "actual": {
     "el-0131.wav": {
       "text": "να δούμε το πιο τρυφερό όμως με την εκκλησία μαυρισμένα θα πάτε το παλιό νεκροταφείο χορταριασμένο και μέσα στο πράσινο",
-      "transcribe_seconds": 6.5612359046936035,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0002257823944091797,
+      "transcribe_seconds": 7.0636584758758545,
       "wav_seconds": 11.625,
       "likelihood": 9.671743414643969e-08,
       "word_error": {
@@ -27,7 +37,15 @@
     },
     "el-0123.wav": {
       "text": "πρασινίζει στο βάθος του βωμό πάνω στους γερμανούς κόκκινο που στίχους φαίνονταν ακόμη τα ίχνη της χάλκινες κατσαρόλες",
-      "transcribe_seconds": 7.6663548946380615,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00013685226440429688,
+      "transcribe_seconds": 7.089537620544434,
       "wav_seconds": 10.75,
       "likelihood": 1.6506468763795956e-06,
       "word_error": {
@@ -40,7 +58,15 @@
     },
     "el-0130.wav": {
       "text": "αριστερά και τα δύο μελαγχολικά όμορφο με την όμορφη πεδιάδα τη διασχίσει το ποτάμι με σειρές από λευκές χαμηλές καλύβες",
-      "transcribe_seconds": 8.133907556533813,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00021457672119140625,
+      "transcribe_seconds": 7.579097270965576,
       "wav_seconds": 13.5,
       "likelihood": 4.0631294434611875e-05,
       "word_error": {
@@ -53,7 +79,15 @@
     },
     "el-0128.wav": {
       "text": "πόσο παρέμειναν στις αναμνήσεις βαραίνουν στον κουβά γεμάτο με νερό που τραβάει προς τα κάτω προς το πηγάδι",
-      "transcribe_seconds": 5.563316345214844,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001430511474609375,
+      "transcribe_seconds": 5.349033832550049,
       "wav_seconds": 11.25,
       "likelihood": 0.00040448107267558174,
       "word_error": {
@@ -66,7 +100,15 @@
     },
     "el-0127.wav": {
       "text": "καλύτερη μετά μουσκέψεις χαρούμενη με το σκούρο χρυσαφί επεισόδιο λες και με το ανοιχτό πράσινο πολλές ομοιότητες",
-      "transcribe_seconds": 7.234910726547241,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00013256072998046875,
+      "transcribe_seconds": 6.717498064041138,
       "wav_seconds": 9.75,
       "likelihood": 4.697473796306825e-08,
       "word_error": {
@@ -79,7 +121,15 @@
     },
     "el-0125.wav": {
       "text": "έμοιαζαν με είχαν απομείνει και σαν ενθύμιο ένα από αυτά σκαρφαλώνει στον τοίχο και από κει προβολή προς τα έξω",
-      "transcribe_seconds": 5.680753469467163,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 3.123283386230469e-05,
+      "transcribe_seconds": 5.927312612533569,
       "wav_seconds": 10.75,
       "likelihood": 1.0955993383242506e-05,
       "word_error": {
@@ -92,7 +142,15 @@
     },
     "el-0132.wav": {
       "text": "και στο βάθος ορόφους με τα ερείπια του κάστρου σας είναι θα στεφανώνουν τον λόφο και περίπλοκη γλυκύτητα και ησυχία",
-      "transcribe_seconds": 5.852323293685913,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.0001499652862548828,
+      "transcribe_seconds": 5.871528625488281,
       "wav_seconds": 11,
       "likelihood": 8.257088635534698e-07,
       "word_error": {
@@ -105,7 +163,15 @@
     },
     "el-0126.wav": {
       "text": "λες και ήθελε να δει τι υπήρχε πέρα στον κόσμο πως αναμνήσεις έξυπνος στην καρδιά του υπηρετεί αυτή γωνία της αυλής",
-      "transcribe_seconds": 6.228572845458984,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00014400482177734375,
+      "transcribe_seconds": 6.19109320640564,
       "wav_seconds": 11.75,
       "likelihood": 1.527997886985446e-06,
       "word_error": {
@@ -118,7 +184,15 @@
     },
     "el-0124.wav": {
       "text": "που δεν υπήρχαν πια ιταλία και γυαλιστερά κρεμαστάρια όπου κάποτε κρεμούσαν τις ελιές στο δισάκι ατόπημα",
-      "transcribe_seconds": 7.43737268447876,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 2.47955322265625e-05,
+      "transcribe_seconds": 6.975113868713379,
       "wav_seconds": 11.375,
       "likelihood": 1.7803543440583243e-08,
       "word_error": {
@@ -131,7 +205,15 @@
     },
     "el-0129.wav": {
       "text": "συνεχίζω όμως να βρουν την κουβέρτα και σαν σταματούσε λίγο για να παρατηρήσω το οποίο στα δεξιά και το τοπίο στα",
-      "transcribe_seconds": 6.187336683273315,
+      "intent": {
+        "name": "",
+        "confidence": 0
+      },
+      "entities": [],
+      "intents": [],
+      "slots": {},
+      "recognize_seconds": 0.00013589859008789062,
+      "transcribe_seconds": 6.005908966064453,
       "wav_seconds": 10.875,
       "likelihood": 0.00017251879283174002,
       "word_error": {
